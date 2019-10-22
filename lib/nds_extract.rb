@@ -39,7 +39,7 @@ def total_gross(source)
   total = 0
   index = 0
   while index < source.size do
-    
+    total += source[:movies][index][:worldwide_gross]
     index += 1
   end
 end
