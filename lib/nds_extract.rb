@@ -42,4 +42,5 @@ def total_gross(source)
     total += source[:movies][index][:worldwide_gross]
     index += 1
   end
+  return total
 end
